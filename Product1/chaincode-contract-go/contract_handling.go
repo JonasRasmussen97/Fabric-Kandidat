@@ -292,8 +292,6 @@ func (s *SmartContract) SignContract(ctx contractapi.TransactionContextInterface
 }
 
 // This function returns the private data of a smart contract. Only allowed by the creator of the contract.
-// TO BE MADE
-
 func (s *SmartContract) GetContractPrivateData(ctx contractapi.TransactionContextInterface, contractID string) (string, error) {
 	
 	// Client MSPID
